@@ -1,4 +1,3 @@
-# Clase Cliente
 class Cliente:
     def __init__(self, nombre, transaccion):
         self.nombre = nombre
@@ -7,7 +6,6 @@ class Cliente:
     def __str__(self):
         return f"{self.nombre} - {self.transaccion}"
 
-# Clase Cola
 class Cola:
     def __init__(self):
         self.items = []
@@ -30,7 +28,7 @@ class Cola:
                 print(f"{i}. {cliente}")
 
 
-# Programa principal
+
 cola_banco = Cola()
 
 while True:
